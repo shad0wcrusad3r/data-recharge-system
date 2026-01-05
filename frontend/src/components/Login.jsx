@@ -31,7 +31,6 @@ function Login() {
                     localStorage.setItem('username', data.username);
                     navigate('/plans');
                 } else {
-                    // If signup successful, switch to login or auto-login
                     alert('Account created! Please login.');
                     setIsLogin(true);
                 }

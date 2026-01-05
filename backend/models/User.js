@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema({
         trim: true
     },
     password: {
-        type: String, // In production, this should be hashed (e.g., bcrypt)
+        type: String,
         required: true
     }
 });

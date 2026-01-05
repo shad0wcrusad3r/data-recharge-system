@@ -40,7 +40,6 @@ function Payment() {
             const data = await response.json();
 
             if (response.ok) {
-                // Navigate to Bill with receipt details
                 navigate('/bill', {
                     state: {
                         success: true,

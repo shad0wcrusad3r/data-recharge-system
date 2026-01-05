@@ -2,12 +2,12 @@ const mongoose = require('mongoose');
 const Subscription = require('./models/Subscription');
 
 mongoose.connect('mongodb://localhost:27017/mobile_recharge', {
-    useNewUrlParser: true, // these options are fine to keep or remove, keeping for consistency
+    useNewUrlParser: true, 
     useUnifiedTopology: true
 }).then(async () => {
     console.log('Connected to MongoDB');
 
-    // Check the collection name that Mongoose generated
+    
     console.log('Checking "subscriptions" collection...');
 
     try {

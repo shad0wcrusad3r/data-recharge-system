@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
-// 4. Database – MongoDB (Mongoose) Schema
-// User: Design a MongoDB schema to store subscription details
+
 const subscriptionSchema = new mongoose.Schema({
   username: {
     type: String,
@@ -21,7 +20,7 @@ const subscriptionSchema = new mongoose.Schema({
     required: true
   },
   validity: {
-    type: Number, // in days
+    type: Number, 
     required: true
   },
   subscriptionDate: {
@@ -35,7 +34,7 @@ const subscriptionSchema = new mongoose.Schema({
   }
 });
 
-// Create and export the model
+
 const Subscription = mongoose.model('Subscription', subscriptionSchema);
 
 module.exports = Subscription;
