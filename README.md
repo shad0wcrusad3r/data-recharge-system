@@ -6,16 +6,18 @@ This repository contains a lightweight full-stack web application that allows us
 
 ## 🗂️ Directory Overview
 
-data-recharge-system/
+```
+mobile-recharge/
 ├── backend/
-│ ├── models/
-│ │ └── Subscription.js // Mongoose subscription model
-│ └── routes/
-│ └── subscribe.js // API endpoint for plan activation
+│   ├── models/
+│   │   └── Subscription.js  (MongoDB Schema)
+│   └── routes/
+│       └── subscribe.js     (Express Route)
 └── frontend/
-└── src/
-├── App.js // Main React entry component
-└── App.css // Application styling
+    └── src/
+        ├── App.js           (React Component)
+        └── App.css          (Styles)
+```
 
 
 ---
