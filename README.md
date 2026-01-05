@@ -1,25 +1,33 @@
-# Mobile Recharge Plan System
+# 📱 Data Recharge Management System
 
-This project is a simple full-stack application for viewing mobile recharge plans and subscribing to them. It uses React for the frontend and Node.js/Express with MongoDB for the backend.
+This repository contains a lightweight full-stack web application that allows users to explore available mobile recharge plans and activate subscriptions. The frontend is built using React, while the backend is powered by Node.js with Express and MongoDB for data persistence.
 
-## 📁 Project Structure
+---
 
-```
-mobile-recharge/
+## 🗂️ Directory Overview
+
+data-recharge-system/
 ├── backend/
-│   ├── models/
-│   │   └── Subscription.js  (MongoDB Schema)
-│   └── routes/
-│       └── subscribe.js     (Express Route)
+│ ├── models/
+│ │ └── Subscription.js // Mongoose subscription model
+│ └── routes/
+│ └── subscribe.js // API endpoint for plan activation
 └── frontend/
-    └── src/
-        ├── App.js           (React Component)
-        └── App.css          (Styles)
-```
+└── src/
+├── App.js // Main React entry component
+└── App.css // Application styling
 
 
+---
 
-###  Use the App
-1.  **Sign Up**: Create a new account.
-2.  **Login**: Use your new credentials.
-3.  **Recharge**: Select a plan, pay (mock), and get your bill.
+## 🚀 How the Application Works
+
+1. **Account Registration**  
+   Users create an account to access recharge services.
+
+2. **Authentication**  
+   Registered users log in using their credentials.
+
+3. **Plan Activation**  
+   Users choose a recharge plan, complete a simulated payment, and receive confirmation of their subscription.
+
